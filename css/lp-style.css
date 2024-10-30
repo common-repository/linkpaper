@@ -1,0 +1,203 @@
+#lp-vendors {
+    table-layout: fixed;
+}
+
+.lp_button_bar td {
+	width: 33%;
+}
+
+#lp-vendors tr td:first-of-type {
+	width: 25px;
+}
+
+#lp-vendors tr td:nth-of-type(2) {
+	width: 50px;
+}
+
+#lp-vendors tr td:nth-of-type(3) {
+	width: 100px;
+}
+#lp-vendors tr td:nth-of-type(4) {
+	width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.lp-vendor-input {
+    width: 275px;
+}
+
+#lp-link-table {
+    width: 700px;
+}
+
+.lp-submit-button {
+    margin-top: 10px !important;
+}
+
+
+.lp_button_bar {
+	background-color: #8DE8F2;
+    font-size:25px;
+	font-weight:bold;
+    color: #848482;
+    
+}
+
+.lp_button_bar .button {
+	width: 120px;
+	text-align: center;
+    color: #848482
+}
+
+
+.lp_link_row td {
+	padding:20px 30px;
+	margin-bottom:8px;
+	box-shadow:0 1px 1px rgba(0,0,0,0.1);
+	cursor:pointer;
+}
+
+.lp_link_row td img {
+	height: 20px;
+	padding: 0 15px 0 0;
+	vertical-align: middle;
+}
+
+#lp_link_table {
+	width: 60%;
+    margin-top: 40px;
+}
+
+
+.lp_link_row {
+	list-style:none;
+	color:#848482;
+	font-size:20px;
+	font-weight:bold;
+	text-align: left;
+	margin:20px 0 15px;
+	text-transform:uppercase;
+}
+
+.even {
+	background-color: #F3F5F4;
+}
+
+.odd {
+	background-color: #DBDBDB;
+}
+
+.repeat-enter-setup, .repeat-leave-setup, .repeat-move-setup {
+    -webkit-transition:all linear 1s;
+    -moz-transition:all linear 1s;
+    -ms-transition:all linear 1s;
+    -o-transition:all linear 1s;
+    transition:all linear 1s;
+}
+.repeat-enter-setup {
+    max-height: 0;
+    opacity:0;
+}
+.repeat-enter-setup.repeat-enter-start {
+    max-height: 250px;
+    opacity:1;
+}
+.repeat-leave-setup {
+    opacity:1;
+    max-height: 250px;
+}
+.repeat-leave-setup.repeat-leave-start {
+    opacity:0;
+    max-height: 0;
+}
+.repeat-move-setup {
+}
+.repeat-move-setup.repeat-move-start {
+}
+
+.onoffswitch {
+    position: relative; width: 100px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    top: -7px;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+    visibility: hidden;
+}
+
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+}
+
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner > span {
+    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.onoffswitch-inner .onoffswitch-active {
+    padding-left: 15px;
+    background-color: #C2C2C2; color: #FFFFFF;
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+    padding-right: 15px;
+    background-color: #C2C2C2; color: #FFFFFF;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block; width: 50px; margin: 0px; text-align: center; 
+    border: 0px solid #999999;border-radius: 0px; 
+    position: absolute; top: 0; bottom: 0;
+    text-transform: capitalize;
+}
+.onoffswitch-active .onoffswitch-switch {
+    background: #27A1CA; left: 0;
+}
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #A1A1A1; right: 0;
+}
+
+.onoffswitch-active .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; left: 50px; 
+    border-style: solid; border-color: #27A1CA transparent transparent #27A1CA; border-width: 15px 10px;
+}
+
+
+.onoffswitch-inactive .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; right: 50px; 
+    border-style: solid; border-color: transparent #A1A1A1 #A1A1A1 transparent; border-width: 15px 10px;
+}
+
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.lp-admin-app {
+    width: 700px;
+    float: left;
+}
+
+.lp-donate {
+    width: 300px;
+    float: right;
+    padding: 20px 20px 0px 20px;
+    border: 1px dotted black;
+    margin: 55px 10px 10px 10px;
+}
+
+#lp-donate-box form {
+    margin: 0 auto;
+    width: 150px;
+}
